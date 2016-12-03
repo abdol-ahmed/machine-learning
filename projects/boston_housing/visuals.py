@@ -24,7 +24,9 @@ def ModelLearning(X, y):
 
     # Generate the training set sizes increasing by 50
     train_sizes = np.rint(np.linspace(1, X.shape[0]*0.8 - 1, 9)).astype(int)
-
+    print train_sizes
+    print "me"
+    
     # Create the figure window
     fig = pl.figure(figsize=(10,7))
 
